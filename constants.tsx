@@ -61,6 +61,13 @@ export const EXPERIENCES: Experience[] = [
 
 export const ACHIEVEMENTS: Achievement[] = [
   {
+    title: "Prestigious Academic Scholarship Award ($18,000)",
+    organization: "University Excellence Program",
+    date: "2018 - 2021",
+    description: "Awarded a merit-based academic scholarship valued at $18,000 in recognition of exceptional scholastic achievement and potential in the field of Computer Science. Maintained rigorous academic standards throughout the tenure of the award.",
+    tags: ["Scholarship", "Academic Excellence", "Computer Science", "Merit Award"]
+  },
+  {
     title: "StockBabble: Published Research & AI Development",
     organization: "3rd ACM Conference on Conversational User Interfaces (CUI 2021)",
     date: "Aug 2021",
