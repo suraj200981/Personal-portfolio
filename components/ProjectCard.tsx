@@ -32,26 +32,34 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
           <div className="absolute inset-0 bg-[#0a0a0c] p-4 flex items-center justify-center overflow-hidden">
             <div className="w-full h-full border border-cyan-500/20 rounded bg-black/40 relative flex flex-col">
               <div className="flex justify-between items-center p-2 border-b border-cyan-500/10">
-                <div className="text-[8px] font-mono text-cyan-400">TACTICAL_ID: #0003</div>
+                <div className="text-[8px] font-mono text-cyan-400 uppercase tracking-widest">Tactical_Dex_v4</div>
                 <div className="flex gap-1">
-                  <div className="w-6 h-2 bg-green-500/80 rounded-[1px]"></div>
-                  <div className="w-6 h-2 bg-purple-500/80 rounded-[1px]"></div>
+                  <div className="w-4 h-1 bg-cyan-500/80 rounded-[1px]"></div>
+                  <div className="w-4 h-1 bg-red-500/80 rounded-[1px]"></div>
                 </div>
               </div>
               <div className="flex-1 p-3 flex gap-4">
-                <div className="w-1/3 aspect-square bg-slate-800/50 rounded border border-cyan-500/10 flex items-center justify-center">
-                  <div className="w-8 h-8 rounded-full bg-cyan-500/10 animate-pulse"></div>
+                <div className="w-1/3 aspect-square bg-slate-800/30 rounded-lg border border-cyan-500/10 flex items-center justify-center relative">
+                   <div className="w-10 h-10 rounded-full border border-dashed border-cyan-500/20 animate-spin-slow"></div>
+                   <div className="absolute w-6 h-6 rounded-full bg-cyan-500/5 animate-pulse"></div>
+                   <div className="absolute text-[6px] text-cyan-400 font-mono bottom-1">SCANNING...</div>
                 </div>
                 <div className="flex-1 space-y-2">
-                   <div className="h-1 w-full bg-cyan-500/20 rounded"></div>
-                   <div className="h-1 w-3/4 bg-cyan-500/20 rounded"></div>
-                   <div className="h-1 w-1/2 bg-cyan-500/20 rounded"></div>
+                   <div className="h-1.5 w-full bg-cyan-500/20 rounded"></div>
+                   <div className="h-1.5 w-3/4 bg-cyan-500/10 rounded"></div>
+                   <div className="h-4 w-1/2 bg-cyan-500/5 rounded border border-cyan-500/10 flex items-center px-1">
+                      <div className="h-1 w-full bg-green-500/40 rounded-full"></div>
+                   </div>
+                   <div className="flex gap-1">
+                      <div className="h-2 w-8 bg-purple-500/20 rounded text-[5px] text-purple-300 flex items-center justify-center">TYPE:1</div>
+                      <div className="h-2 w-8 bg-cyan-500/20 rounded text-[5px] text-cyan-300 flex items-center justify-center">TYPE:2</div>
+                   </div>
                 </div>
               </div>
               <div className="absolute inset-0 pointer-events-none bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.1)_50%),linear-gradient(90deg,rgba(255,0,0,0.03),rgba(0,255,0,0.01),rgba(0,0,255,0.03))] z-10 bg-[length:100%_2px,3px_100%]"></div>
             </div>
-            <div className="absolute bottom-4 left-4 bg-cyan-950/80 px-2 py-1 border border-cyan-500/30">
-               <span className="text-[10px] font-mono text-cyan-400 uppercase tracking-tighter">Matchup_Simulation</span>
+            <div className="absolute bottom-4 left-4 bg-cyan-950/80 px-2 py-1 border border-cyan-500/30 shadow-lg">
+               <span className="text-[9px] font-mono text-cyan-400 uppercase tracking-widest font-bold">Battle_Simulation_Ready</span>
             </div>
           </div>
         ) : isSimpleSign ? (

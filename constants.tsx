@@ -87,12 +87,12 @@ export const ACHIEVEMENTS: Achievement[] = [
 export const PROJECTS: Project[] = [
   {
     title: "Dexomania",
-    description: "A high-performance tactical interface and combat simulator. Features ultra-fast stat decryption, ability analysis, and real-time matchup simulations with a terminal-inspired UI.",
+    description: "An unofficial Pokémon tactical search and battle simulator. Designed for competitive play with high-performance stat decryption, move-set analysis, and real-time matchup forecasting.",
     status: 'Deployed',
     link: "https://dexomania.com/",
-    image: "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=2070&auto=format&fit=crop", // Fallback, but Card will prioritize themed visuals
-    tags: ["Tactical UI", "Combat Sim", "React", "Optimization"],
-    features: ["Stat Metrics Visualization", "Version History Tracking", "Arena Deployment Simulation"]
+    image: "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=2070&auto=format&fit=crop",
+    tags: ["Competitive Gaming", "React", "Data Engineering", "Unofficial"],
+    features: ["Complex Move-set Decryption", "Probability-based Matchup Engine", "Terminal-inspired UX Design"]
   },
   {
     title: "SimpleSignPDF",
