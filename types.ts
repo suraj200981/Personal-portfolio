@@ -33,4 +33,5 @@ export interface Project {
   link?: string;
   tags: string[];
   features?: string[];
+  image?: string;
 }

@@ -107,11 +107,11 @@ const App: React.FC = () => {
               </a>
             </div>
             
-            {/* Quick Teaser */}
+            {/* Quick Teaser - Updated to Dexomania */}
             <div className="mt-16 flex items-center space-x-4 opacity-60 hover:opacity-100 transition-opacity">
-               <div className="text-xs font-bold uppercase tracking-widest text-slate-500">Latest Project:</div>
-               <a href="https://simplesignpdf.com/" target="_blank" rel="noreferrer" className="text-xs font-bold text-blue-400 hover:underline flex items-center">
-                 SimpleSignPDF.com 
+               <div className="text-xs font-bold uppercase tracking-widest text-slate-500">Latest Release:</div>
+               <a href="https://dexomania.com/" target="_blank" rel="noreferrer" className="text-xs font-bold text-red-400 hover:text-red-300 hover:underline flex items-center transition-colors">
+                 Dexomania.com 
                  <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
                </a>
             </div>

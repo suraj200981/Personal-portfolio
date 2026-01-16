@@ -86,6 +86,15 @@ export const ACHIEVEMENTS: Achievement[] = [
 
 export const PROJECTS: Project[] = [
   {
+    title: "Dexomania",
+    description: "A high-performance tactical interface and combat simulator. Features ultra-fast stat decryption, ability analysis, and real-time matchup simulations with a terminal-inspired UI.",
+    status: 'Deployed',
+    link: "https://dexomania.com/",
+    image: "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=2070&auto=format&fit=crop", // Fallback, but Card will prioritize themed visuals
+    tags: ["Tactical UI", "Combat Sim", "React", "Optimization"],
+    features: ["Stat Metrics Visualization", "Version History Tracking", "Arena Deployment Simulation"]
+  },
+  {
     title: "SimpleSignPDF",
     description: "A privacy-focused, zero-barrier PDF document signer. Built to allow users to sign documents without the friction of account creation or subscriptions.",
     status: 'Deployed',
@@ -99,13 +108,6 @@ export const PROJECTS: Project[] = [
     status: 'Pipeline',
     tags: ["SaaS", "Data Analytics", "Agile", "Azure"],
     features: ["Bottleneck detection", "Velocity forecasting", "Team health metrics"]
-  },
-  {
-    title: "Context-Aware Research Assistant",
-    description: "An AI-powered interface for organizing academic research papers with semantic search and auto-summarization.",
-    status: 'Pipeline',
-    tags: ["LLM", "Research", "Vector DB"],
-    features: ["Semantic search", "Knowledge mapping", "Citations manager"]
   }
 ];
 
